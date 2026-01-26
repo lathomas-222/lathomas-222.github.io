@@ -2,9 +2,9 @@
 title: "Teaching Assistant"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2024-ta
+permalink: /teaching/spring2024-ta
 venue: "University of Colorado Boulder, Geography Department"
-date: Fall 2024
+date: 2024-08-20
 location: "Boulder, CO"
 ---
 
