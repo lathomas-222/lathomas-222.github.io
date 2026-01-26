@@ -26,7 +26,7 @@ I am a graduate student in the Geography Department at the University of Colorad
   var site1 = L.marker([45.0, -93.0]).addTo(map);
   site1.bindPopup(`
     <strong>Minnesota Floodplain</strong><br>
-    <a href="/publication/2025-04-16-snow_shrubs/" target="_blank">
+    <a href="/publication/2025-04-16-snow_shrubs" target="_blank">
       Floodplain carbon storage (2024)
     </a>
   `);
