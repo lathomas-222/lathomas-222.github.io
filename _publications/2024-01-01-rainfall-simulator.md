@@ -1,6 +1,7 @@
 ---
 title: "The Next-Generation Ecosystem Experiment Arctic Rainfall Simulator: a tool to understand the effects of changing rainfall patterns in the Arctic"
 collection: publications
+category: manuscripts
 permalink: /publication/2024-01-01-rainfall-simulator
 date: 2024-01-01
 venue: 'Hydrology Research'
