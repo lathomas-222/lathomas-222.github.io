@@ -19,11 +19,9 @@ I'm a graduate student at the University of Colorado Boulder studying how human 
   var map = L.map('map').setView([39.5, -98.35], 4);
 
   L.tileLayer(
-    'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+    'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',
     {
-      attribution: '&copy; OpenStreetMap &copy; CARTO',
-      subdomains: 'abcd',
-      maxZoom: 20
+      attribution: 'Tiles &copy; Esri'
     }
   ).addTo(map);
 </script>
