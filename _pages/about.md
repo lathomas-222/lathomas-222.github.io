@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a graduate student in the Geography Department at the University of Colorado Boulder
+I am a graduate student in the Geography Department at the University of Colorado Boulder. Check out some of my research:
 
 <div id="map" style="height: 400px; margin: 2em 0;"></div>
 <link
@@ -65,6 +65,8 @@ I am a graduate student in the Geography Department at the University of Colorad
       );
   });
 </script>
+var bounds = L.latLngBounds(locations.map(l => l.coords));
+map.fitBounds(bounds);
 
 
 
