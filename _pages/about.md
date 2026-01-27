@@ -23,11 +23,32 @@ I am a graduate student in the Geography Department at the University of Colorad
   }).addTo(map);
 </script>
 <script>
-  var site1 = L.marker([45.0, -93.0]).addTo(map);
-  site1.bindPopup(`
-    <strong>Minnesota Floodplain</strong><br>
-    <a href="/publication/2025-04-16-snow_shrubs" target="_blank">
-      Floodplain carbon storage (2024)
-    </a>
-  `);
+<script>
+  var locations = [
+    {
+      name: "Lower Mississippi River",
+      coords: [34.8, -91.1],
+      link: "/publication/mississippi-sediment/",
+      label: "Sediment dynamics study (2022)"
+    },
+    {
+      name: "Columbia River",
+      coords: [46.2, -123.9],
+      link: "/publication/columbia-carbon/",
+      label: "Carbon burial rates (2023)"
+    }
+  ];
+
+  locations.forEach(function(loc) {
+    L.marker(loc.coords)
+      .addTo(map)
+      .bindPopup(
+        `<strong>${loc.name}</strong><br>
+         <a href="${loc.link}">${loc.label}</a>`
+      );
+  });
 </script>
+var bounds = L.latLngBounds(locations.map(l => l.coords));
+map.fitBounds(bounds);
+
+
