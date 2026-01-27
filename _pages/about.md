@@ -16,13 +16,18 @@ I am a graduate student in the Geography Department at the University of Colorad
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-  var map = L.map('map').setView([39.5, -98.35], 4); // center US
+  var map = L.map('map').setView([39.5, -98.35], 4);
 
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; OpenStreetMap contributors'
-  }).addTo(map);
+  L.tileLayer(
+    'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+    {
+      attribution: '&copy; OpenStreetMap &copy; CARTO',
+      subdomains: 'abcd',
+      maxZoom: 20
+    }
+  ).addTo(map);
 </script>
-<script>
+
 <script>
   var locations = [
     {
@@ -48,7 +53,6 @@ I am a graduate student in the Geography Department at the University of Colorad
       );
   });
 </script>
-var bounds = L.latLngBounds(locations.map(l => l.coords));
-map.fitBounds(bounds);
+
 
 
