@@ -10,6 +10,11 @@ var addressPoints = [
     -90.0733934
   ],
   [
+    "Analyzing Differences in Shrub Snowpack Characteristics Using Near-Surface Ground Temperature Data at Teller and Kougarok<br />Next Generation Ecosystem Experiments Arctic Virtual 11th Annual All Hands Meeting 2022; Virtual",
+    44.4939936,
+    11.3576917
+  ],
+  [
     "Leveraging Technology to Enable Phase 3 Science Panel Discussion: Rain on Snow Events in the Arctic<br />Next Generation Ecosystem Experiments Arctic 13th Annual All Hands Meeting 2024; Anchorage, AK, USA",
     61.2163129,
     -149.894852
