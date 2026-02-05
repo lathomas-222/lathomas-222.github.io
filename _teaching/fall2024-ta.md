@@ -8,4 +8,4 @@ date: 2024-08-20
 location: "Boulder, CO"
 ---
 
-Taught one weekly 3-hour lab section for 12 upper-level undergraduate geography and geology students in Principles of Geomorphology (GEOG/GEOL 4241)
+Taught one weekly 3-hour lab section for 12 upper-level undergraduate geography and geology students in Principles of Geomorphology (GEOG/GEOL 4241) during Fall 2024 semester.
