@@ -10,7 +10,7 @@ var addressPoints = [
     -90.0733934
   ],
   [
-    "Leveraging Technology to Enable Phase 3 Science Panel Discussion: Rain on Snow Events in the Arctic<br />Next Generation Ecosystem Experiments 13th Annual All Hands Meeting 2024; Anchorage, AK, USA",
+    "Leveraging Technology to Enable Phase 3 Science Panel Discussion: Rain on Snow Events in the Arctic<br />Next Generation Ecosystem Experiments Arctic 13th Annual All Hands Meeting 2024; Anchorage, AK, USA",
     61.2163129,
     -149.894852
   ],
